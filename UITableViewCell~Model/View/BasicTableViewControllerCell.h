@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BasicTableViewControllerCell.h
 //  UITableViewCell~Model
 //
 //  Created by 阳光 on 16/6/19.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BasicTableViewController.h"
 
-@interface ViewController : BasicTableViewController
+@interface BasicTableViewControllerCell : UITableViewCell
 
+@property(nonatomic,strong)NSObject *model;
 
 @end
-

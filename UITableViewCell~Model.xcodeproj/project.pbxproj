@@ -15,6 +15,11 @@
 		DC871BB51D16B43600A69A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC871BB31D16B43600A69A11 /* LaunchScreen.storyboard */; };
 		DC871BC01D16B43600A69A11 /* UITableViewCell_ModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC871BBF1D16B43600A69A11 /* UITableViewCell_ModelTests.m */; };
 		DC871BCB1D16B43600A69A11 /* UITableViewCell_ModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC871BCA1D16B43600A69A11 /* UITableViewCell_ModelUITests.m */; };
+		DC871BE01D16B51A00A69A11 /* TableViewControllerCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC871BDF1D16B51A00A69A11 /* TableViewControllerCellModel.m */; };
+		DC871BE31D16B67000A69A11 /* BasicTableViewControllerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC871BE21D16B67000A69A11 /* BasicTableViewControllerCell.m */; };
+		DC871BE61D16B6CE00A69A11 /* MyTableViewControllerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC871BE51D16B6CE00A69A11 /* MyTableViewControllerCell.m */; };
+		DC871BE91D16B92300A69A11 /* BasicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC871BE81D16B92300A69A11 /* BasicTableViewController.m */; };
+		DC871BEC1D16BCFC00A69A11 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC871BEB1D16BCFC00A69A11 /* FirstTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		DC871BC61D16B43600A69A11 /* UITableViewCell~ModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewCell~ModelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC871BCA1D16B43600A69A11 /* UITableViewCell_ModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewCell_ModelUITests.m; sourceTree = "<group>"; };
 		DC871BCC1D16B43600A69A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC871BDE1D16B51A00A69A11 /* TableViewControllerCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerCellModel.h; sourceTree = "<group>"; };
+		DC871BDF1D16B51A00A69A11 /* TableViewControllerCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerCellModel.m; sourceTree = "<group>"; };
+		DC871BE11D16B67000A69A11 /* BasicTableViewControllerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTableViewControllerCell.h; sourceTree = "<group>"; };
+		DC871BE21D16B67000A69A11 /* BasicTableViewControllerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTableViewControllerCell.m; sourceTree = "<group>"; };
+		DC871BE41D16B6CE00A69A11 /* MyTableViewControllerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewControllerCell.h; sourceTree = "<group>"; };
+		DC871BE51D16B6CE00A69A11 /* MyTableViewControllerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewControllerCell.m; sourceTree = "<group>"; };
+		DC871BE71D16B92300A69A11 /* BasicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTableViewController.h; sourceTree = "<group>"; };
+		DC871BE81D16B92300A69A11 /* BasicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTableViewController.m; sourceTree = "<group>"; };
+		DC871BEA1D16BCFC00A69A11 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		DC871BEB1D16BCFC00A69A11 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,9 @@
 		DC871BA41D16B43600A69A11 /* UITableViewCell~Model */ = {
 			isa = PBXGroup;
 			children = (
+				DC871BD81D16B4C800A69A11 /* Controller */,
+				DC871BD91D16B4C800A69A11 /* Model */,
+				DC871BDA1D16B4C800A69A11 /* View */,
 				DC871BA81D16B43600A69A11 /* AppDelegate.h */,
 				DC871BA91D16B43600A69A11 /* AppDelegate.m */,
 				DC871BAB1D16B43600A69A11 /* ViewController.h */,
@@ -138,6 +156,37 @@
 				DC871BCC1D16B43600A69A11 /* Info.plist */,
 			);
 			path = "UITableViewCell~ModelUITests";
+			sourceTree = "<group>";
+		};
+		DC871BD81D16B4C800A69A11 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC871BE71D16B92300A69A11 /* BasicTableViewController.h */,
+				DC871BE81D16B92300A69A11 /* BasicTableViewController.m */,
+				DC871BEA1D16BCFC00A69A11 /* FirstTableViewController.h */,
+				DC871BEB1D16BCFC00A69A11 /* FirstTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC871BD91D16B4C800A69A11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC871BDE1D16B51A00A69A11 /* TableViewControllerCellModel.h */,
+				DC871BDF1D16B51A00A69A11 /* TableViewControllerCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC871BDA1D16B4C800A69A11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC871BE11D16B67000A69A11 /* BasicTableViewControllerCell.h */,
+				DC871BE21D16B67000A69A11 /* BasicTableViewControllerCell.m */,
+				DC871BE41D16B6CE00A69A11 /* MyTableViewControllerCell.h */,
+				DC871BE51D16B6CE00A69A11 /* MyTableViewControllerCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +320,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC871BAD1D16B43600A69A11 /* ViewController.m in Sources */,
+				DC871BE01D16B51A00A69A11 /* TableViewControllerCellModel.m in Sources */,
+				DC871BE31D16B67000A69A11 /* BasicTableViewControllerCell.m in Sources */,
+				DC871BE91D16B92300A69A11 /* BasicTableViewController.m in Sources */,
+				DC871BEC1D16BCFC00A69A11 /* FirstTableViewController.m in Sources */,
 				DC871BAA1D16B43600A69A11 /* AppDelegate.m in Sources */,
 				DC871BA71D16B43600A69A11 /* main.m in Sources */,
+				DC871BE61D16B6CE00A69A11 /* MyTableViewControllerCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
